@@ -59,9 +59,8 @@ function ChatPage() {
     setInput("");
   };
 
-  const onSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    send(input);
+  const onSubmit = (message: { text?: string }) => {
+    send(message.text ?? input);
   };
 
   const reset = () => {
