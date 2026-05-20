@@ -89,3 +89,4 @@ Real-time AI responses
 Search functionality
 Notifications system
 Smooth transitions and animations
+The author is Sophakama Magabela
