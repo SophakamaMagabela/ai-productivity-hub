@@ -87,6 +87,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Aria — AI Workplace Productivity Assistant" },
+      { name: "description", content: "AI Productivity Hub is a web application that automates workplace tasks for professionals using AI." },
+      { property: "og:description", content: "AI Productivity Hub is a web application that automates workplace tasks for professionals using AI." },
+      { name: "twitter:description", content: "AI Productivity Hub is a web application that automates workplace tasks for professionals using AI." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/71bb5820-3203-45dd-9a60-a72efe61d319/id-preview-2343e81a--22066a2f-046a-4535-8e8d-399f95357515.lovable.app-1779264154314.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/71bb5820-3203-45dd-9a60-a72efe61d319/id-preview-2343e81a--22066a2f-046a-4535-8e8d-399f95357515.lovable.app-1779264154314.png" },
     ],
     links: [
       {
